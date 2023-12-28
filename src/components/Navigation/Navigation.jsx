@@ -1,0 +1,21 @@
+import styles from './Navigation.module.css'
+
+const Navigation = () => {
+
+  
+
+  return (
+    <nav className={`${styles.navigation} container`}>
+        <div className='logo'>
+            <img style={{height:"80px"}} src="/images/logo.png" alt="coding logo" />
+        </div>
+        <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Contact</li>
+        </ul>
+    </nav>
+  )
+}
+
+export default Navigation
